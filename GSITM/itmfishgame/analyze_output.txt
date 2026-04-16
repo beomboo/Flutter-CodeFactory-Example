@@ -1,0 +1,18 @@
+Analyzing itmfishgame...                                        
+
+  error • Classes can only mix in mixins and classes • lib/game/aquarium_game.dart:9:43 • mixin_of_non_class
+   info • 'HasGameRef' is deprecated and shouldn't be used. Use HasGameReference instead. This mixin will be removed in a future version of Flame • lib/game/components/coin_component.dart:7:50 • deprecated_member_use
+warning • Unused import: 'package:flame/effects.dart' • lib/game/components/fish_component.dart:3:8 • unused_import
+warning • Unused import: 'package:flame/events.dart' • lib/game/components/fish_component.dart:4:8 • unused_import
+   info • 'HasGameRef' is deprecated and shouldn't be used. Use HasGameReference instead. This mixin will be removed in a future version of Flame • lib/game/components/fish_component.dart:10:50 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/gacha_overlay.dart:19:27 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/gacha_overlay.dart:46:51 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/hud.dart:25:37 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/hud.dart:27:56 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/shop_overlay.dart:21:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/shop_overlay.dart:26:50 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/ui/shop_overlay.dart:47:39 • deprecated_member_use
+   info • Unnecessary use of multiple underscores • lib/ui/shop_overlay.dart:72:42 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/ui/shop_overlay.dart:72:46 • unnecessary_underscores
+  error • The name 'MyApp' isn't a class • test/widget_test.dart:16:35 • creation_with_non_type
+
